@@ -1,0 +1,164 @@
+.MainLogin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+.MainLogin > article {
+  width: 35%;
+  height: 80vh;
+  border: 0.01rem solid;
+  /* box-shadow: 1px 1px 2px #ccc; */
+  border-radius: 10px;
+  padding: 40px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+.MainLogin > article > form {
+  width: 100%;
+  height: 60vh;
+  /* border: 1px  solid darkgreen; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  row-gap: 25px;
+}
+.MainLogin > article > h1 {
+  font-size: 2rem;
+  color: #200e36;
+}
+.formdiv {
+  width: 100%;
+  height: 15vh;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formdiv label {
+  display: block;
+  /* border: 1px solid blue; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: #200e36;
+}
+.formdiv input {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  padding-top: 10px;
+  outline: none;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 16.5px;
+  letter-spacing: 1px;
+}
+
+.MainLogin > article > form > button {
+  width: 100%;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffff;
+  background-color: #ff8900;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.MainLogin > article > form > button:hover {
+  background-color: #fff;
+  color: #ff8900;
+  border: 1px solid #ff8900;
+}
+/* //! signup */
+.MainLogin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+.MainLogin > article {
+  width: 35%;
+  height: 80vh;
+  border: 0.01rem solid;
+  /* box-shadow: 1px 1px 2px #ccc; */
+  border-radius: 10px;
+  padding: 40px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+.MainLogin > article > form {
+  width: 100%;
+  height: 60vh;
+  /* border: 1px  solid darkgreen; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  row-gap: 15px;
+  position: relative;
+}
+.MainLogin > article > h1 {
+  font-size: 2rem;
+  color: #200e36;
+}
+.formdiv {
+  width: 100%;
+  height: 13vh;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formdiv label {
+  display: block;
+  /* border: 1px solid blue; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: #200e36;
+}
+.formdiv input {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  padding-top: 10px;
+  outline: none;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 16.5px;
+  letter-spacing: 1px;
+}
+
+.MainLogin > article > form > button {
+  width: 100%;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffff;
+  background-color: #ff8900;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+.MainLogin > article > form > button:hover {
+  background-color: #fff;
+  color: #ff8900;
+  border: 1px solid #ff8900;
+}
+.MainLogin > article > form > a {
+  color: #200e36;
+}

@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#menuBlock {
+  height: 5rem;
+  width: 30rem;
+}
+#menuBlock > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  width: inherit;
+  color: #111;
+}
+#menuBlock > ul > li {
+  list-style: none;
+  color: #111;
+  border-radius: 0.7rem;
+}
+#menuBlock > ul > li:hover a {
+  box-shadow: 0 0 2px 0 gray;
+  color: #ff9800;
+  border-radius: 0.5rem;
+}
+#menuBlock > ul > li > a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.6rem;
+}
+
+@media (min-width: 801px) {
+  #menuBlock {
+    height: 5rem;
+    width: 30rem;
+  }
+  #menuBlock > ul {
+    height: 5rem;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  #menuBlock > ul > li > a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 800px) {
+  #menuBlock {
+    height: 5rem;
+    width: 5rem;
+  }
+  #menuBlock > ul {
+    height: 5rem;
+    width: 10rem;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #menuBlock > ul > li > a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.2rem;
+  }
+}
+#menuBlock > ul > li > a:hover .dropdown1 {
+  display: block;
+}
+
+.home {
+  position: relative;
+}
+.dropdown1 {
+  position: absolute;
+  top: 2.7rem;
+  height: 13rem;
+  width: 10rem;
+  background-color: chocolate;
+  display: none;
+  border-radius: 0.4rem;
+  z-index: 1;
+}
+#menuBlock > ul > li > a:hover .dropdown2 {
+  display: block;
+}
+.about {
+  position: relative;
+}
+.dropdown2 {
+  position: absolute;
+  height: 13rem;
+  top: 2.7rem;
+  width: 10rem;
+  background-color: chocolate;
+  display: none;
+  border-radius: 0.4rem;
+  z-index: 1;
+}
+
+#menuBlock > ul > li > a:hover .dropdown3 {
+  display: block;
+}
+.courses {
+  position: relative;
+}
+.dropdown3 {
+  position: absolute;
+  top: 2.5rem;
+  height: 13rem;
+  width: 10rem;
+  background-color: #fff;
+  display: none;
+  border-radius: 0.4rem;
+  z-index: 1;
+}
+#menuBlock > ul > li > a:hover .dropdown4 {
+  display: block;
+}
+.carrier {
+  position: relative;
+}
+.dropdown4 {
+  position: absolute;
+  top: 2.7rem;
+  height: 13rem;
+  width: 10rem;
+  background-color: #fff;
+  display: none;
+  border-radius: 0.4rem;
+  z-index: 1;
+}
+#menuBlock > ul > li > a:hover .dropdown5 {
+  display: block;
+}
+.contactus {
+  position: relative;
+}
+.dropdown5 {
+  position: absolute;
+  top: 2.7rem;
+  height: 13rem;
+  width: 10rem;
+  background-color: #fff;
+  display: none;
+  border-radius: 0.4rem;
+  z-index: 1;
+}

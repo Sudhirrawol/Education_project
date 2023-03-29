@@ -1,0 +1,110 @@
+.footer {
+  height: 5rem;
+  background-color: #191919;
+  color: white;
+  width: 100%;
+}
+.footer .footerContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+.footer .footerContainer .footer_right {
+  width: 20vw;
+}
+.footer .footerContainer .footer_left a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.footer .footerContainer .footer_right a {
+  display: block;
+  color: white;
+}
+.footer .footerContainer .footer_right a:hover {
+  text-decoration: none;
+}
+.footer .footerContainer .footer_right ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.foot {
+  color: white;
+  background-color: #191919;
+}
+.list {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10vh;
+  height: 90vh;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.list div {
+  padding: 25px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 0.5px 0 currentColor;
+}
+
+.list ul li {
+  padding: 0.5rem;
+  margin-left: 20px;
+  list-style: none;
+}
+.list ul li a {
+  text-decoration: none;
+  color: #888;
+  font-size: 1rem;
+  /* font-weight: bold; */
+}
+.list ul li a:hover {
+  border-bottom: 1px solid #ff9800;
+}
+.list .connect div {
+  padding: 25px;
+  font-weight: bold;
+  text-shadow: 0.5px 0 currentColor;
+}
+.list .connect .icons {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  margin-top: 10px;
+}
+.list .connect .icons .icon a {
+  text-decoration: none;
+  color: white;
+  background-color: #888;
+  padding: 8px 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.list .connect .icons .icon :hover {
+  text-decoration: none;
+  color: white;
+  background-color: #ff9800;
+  border-radius: 50%;
+}
+.list .connect .c p a {
+  color: #888;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+  padding: 25px;
+}
+.list .connect .c p:first-child {
+  padding-bottom: 10px;
+}
+.list .connect .c p a:hover {
+  color: #ff9800;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+  padding: 25px;
+}

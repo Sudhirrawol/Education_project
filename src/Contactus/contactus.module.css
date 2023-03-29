@@ -1,0 +1,75 @@
+.contact {
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem;
+  color: #ff9800;
+}
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.container1 {
+  height: 120vh;
+}
+.container1 div {
+  align-items: center;
+}
+.detail {
+  position: relative;
+  top: 10vh;
+  padding: 1rem;
+}
+.detail > h1 {
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-bottom: 0.2rem;
+}
+.detail > h1:hover {
+  color: #ff9800;
+}
+.detail > h1 > span {
+  font-size: 1.5rem;
+  position: relative;
+  top: 0.2rem;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+.detail > p {
+  padding-left: 0.5rem;
+}
+.container2 .form_control {
+  width: 25vw;
+  height: 90vh;
+  box-shadow: 0 0 5px 0 grey;
+  border-radius: 0.5rem;
+  padding-top: 2rem;
+}
+.form_control > form {
+  width: 90%;
+  margin: 0 auto;
+}
+.form_control > form > label {
+  color: #ff9800;
+  width: 100%;
+}
+.form_control > form > input {
+  width: 100%;
+  padding: 0.5rem;
+}
+.form_control > form > button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  color: #ff9800;
+  background-color: white;
+  font-size: 1rem;
+}
+.form_control > form > button:hover {
+  background-color: #ff9800;
+   color: white;
+}

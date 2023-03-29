@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#CardContainer {
+  width: 100%;
+  height: 70vh;
+  margin-top: 1rem;
+  background-color: #eee;
+}
+
+#CardContainer > article {
+  display: flex;
+  gap: 1rem;
+  height: inherit;
+}
+.Card {
+  position: relative;
+  width: 16rem;
+  height: 15rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 1px #eee;
+
+  transition: 0.3s;
+  /* padding: 10px 30px; */
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 1.8rem;
+}
+.Card:hover {
+  width: 18rem;
+  height: 15rem;
+}
+.Cardblock {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100px);
+  z-index: 99;
+  right: 1rem;
+}
+img {
+  width: 50%;
+  height: 10rem;
+  border-radius: 10px;
+  position: relative;
+  top: 2rem;
+  transform: translateY(-90px);
+}
+.Card:hover img {
+  transform: translateY(-100px);
+}
+.Card:hover > .content {
+  transform: translateY(-170px);
+  opacity: 1;
+}
+.content {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-50px);
+  transition: 0.5s;
+  opacity: 0;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+/* java card */
+.Card:hover {
+  height: 15rem;
+}
+.Cardblock1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100px);
+  right: 1rem;
+}
+img {
+  width: 60%;
+  height: 10rem;
+  border-radius: 10px;
+  position: relative;
+  left: 4rem;
+}
+.Card:hover img {
+  transform: translateY(-30px);
+}
+.Card:hover > .content2 {
+  transform: translateY(-170px);
+  opacity: 1;
+}
+.content2 {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-150px);
+  transition: 0.5s;
+  opacity: 0;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+/* phytom card block */
+.Card:hover {
+  height: 25rem;
+}
+.Cardblock2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100px);
+  z-index: 99;
+  right: 1rem;
+}
+img {
+  width: 60%;
+  height: 10rem;
+  border-radius: 10px;
+  position: relative;
+  left: 4rem;
+}
+.Card:hover img {
+  transform: translateY(-100px);
+}
+.Card:hover > .content3 {
+  transform: translateY(-180px);
+  opacity: 1;
+}
+.content3 {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-150px);
+  transition: 0.5s;
+  opacity: 0;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+/* nodejs card */
+.Card:hover {
+  height: 25rem;
+}
+.Cardblock4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100px);
+  z-index: 99;
+}
+img {
+  width: 60%;
+  height: 10rem;
+  border-radius: 10px;
+  position: relative;
+  left: 4rem;
+}
+.Card:hover img {
+  transform: translateY(-100px);
+  transition: 0.9s;
+}
+.Card:hover > .content4 {
+  transform: translateY(-180px);
+  opacity: 1;
+}
+.content4 {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-150px);
+  transition: 0.5s;
+  opacity: 0;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+.btn2 {
+  height: 2rem;
+  width: 8rem;
+  background-color: #ff9800;
+  margin-left: 3.5rem;
+  margin-top: 0.7rem;
+}

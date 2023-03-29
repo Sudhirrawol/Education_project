@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#AuthBlock {
+  height: 5rem;
+  width: 10rem;
+}
+#AuthBlock > ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: inherit;
+  align-items: center;
+}
+
+#AuthBlock > ul > li {
+  list-style: none;
+}
+#AuthBlock > ul > li > a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.1rem;
+}

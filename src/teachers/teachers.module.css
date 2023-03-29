@@ -1,0 +1,33 @@
+.main_container .aside1 {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  /* position: absolute; */
+}
+
+.main_container .aside2 {
+  display: flex;
+  justify-content: space-evenly;
+  /* position: absolute; */
+  top: 50%;
+}
+
+.main_container .aside2 img {
+  border-radius: 50%;
+}
+
+.main_container .aside2 h1,
+p {
+  /* text-align: center; */
+  margin-left: 4rem;
+  padding: 0.7rem;
+  /* margin: 1rem; */
+}
+
+.main_container .aside1 h2 {
+  font-size: 2.5rem;
+}
+
+.main_container .aside1 p {
+  font-size: 2rem;
+}

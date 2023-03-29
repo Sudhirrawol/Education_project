@@ -1,0 +1,12 @@
+.mindBlock {
+  height: 80vh;
+  width: 100%;
+  /* background-color: black; */
+  margin-top: 10rem;
+}
+.mindBlock > article {
+  display: flex;
+}
+.div2 > .playstore {
+  display: flex;
+}

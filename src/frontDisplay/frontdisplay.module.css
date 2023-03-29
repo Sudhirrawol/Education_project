@@ -1,0 +1,88 @@
+.maincontener {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 16rem;
+  position: relative;
+}
+#sectioncon {
+  height: 50vh;
+  border-bottom: 8px solid #eee;
+}
+
+.maincontener .aside1 {
+  flex-basis: 50%;
+}
+
+.maincontener .aside2 {
+  flex-basis: 50%;
+}
+
+.maincontener .aside2 h2 {
+  color: #ff9800;
+  text-align: justify;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.maincontener .aside2 h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 10rem;
+  width: 40rem;
+  /* background: #ff9800; */
+  text-align: justify;
+}
+
+.maincontener .aside2 p {
+  letter-spacing: 0.2rem;
+  text-align: justify;
+  margin-left: 2rem;
+}
+
+.maincontener .aside2 button {
+  width: 40%;
+  height: 3.3rem;
+  background: #ff9800;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin: 3rem;
+}
+
+.maincontener .aside2 button:hover {
+  background-color: #eee;
+  color: #ff9800;
+}
+
+.maincontener .aside1 .fig2 {
+  position: absolute;
+  top: 1%;
+  left: 20%;
+}
+
+.maincontener .aside1 .fig2 img {
+  border-radius: 20px;
+}
+
+.maincontener .aside1 .tag {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.maincontener .aside1 .tag p {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: black;
+}
+
+.maincontener .figA {
+  position: absolute;
+  top: 55%;
+  left: -14%;
+  /* z-index: -1; */
+}
